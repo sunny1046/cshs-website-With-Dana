@@ -12,7 +12,7 @@ interface CardProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
     | "purple";
   title: string;
   icon: IconType
-  children: React.ReactNode;
+  children?: React.ReactNode;
 }
 
 const colorClasses = {

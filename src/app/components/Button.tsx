@@ -9,7 +9,7 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
     | "pink"
     | "purple";
   href?: string;
-  children: React.ReactNode;
+  children?: React.ReactNode;
 }
 
 const colorClasses = {

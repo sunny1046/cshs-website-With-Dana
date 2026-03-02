@@ -4,7 +4,7 @@ interface MemberProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   name: string;
   position: string;
   pronouns: string;
-  photoPath: string;
+  photoPath?: string;
 }
 
 export default function Member({
