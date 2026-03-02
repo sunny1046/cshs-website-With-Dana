@@ -36,6 +36,7 @@ export default function Home() {
       { name: "Tanvi Kumar", position: "Vice-President", pronouns: "she/her" },
       { name: "Dana Kim", position: "Secretary", pronouns: "she/her" },
       { name: "Vivian Choi", position: "Webmaster", pronouns: "she/her" },
+      { name: "Aiden Yoon", position: "Treasurer", pronouns: "he/him" },
       { name: "Roenne Arjona", position: "Member", pronouns: "she/her" },
     ],
   };
@@ -198,6 +199,13 @@ export default function Home() {
 
         <div className="grid auto-rows-auto gap-y-5 md:px-0 px-8">
           <Event
+            name="Gamemaker Workshop"
+            date=""
+            finished={true}
+            eventType="Workshop"
+            description="A fun 2d platformer development workshop for beginners to explore their interests in game design."
+          />
+          <Event
             name="Codementum"
             date=""
             finished={true}
@@ -224,8 +232,8 @@ export default function Home() {
             finished={true}
             eventType="Hackathon"
             description="We at BFS High School’s Computer Science Honor Society hosted Korea’s first-ever ScrapYard Hackathon, bringing together students from Busan, Daegu, Seoul, and beyond to create clever and delightfully useless projects. Inspired by our own hackathon experiences earlier this year, we planned and executed the event with guidance from Dr. Barnes and support from Hack Club, welcoming over 50 participants who built 18 unique projects."
-          />
-        </div>
+
+          />        </div>
       </div>
     </>
   );
