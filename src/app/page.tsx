@@ -203,7 +203,7 @@ export default function Home() {
             date=""
             finished={true}
             eventType="Workshop"
-            description="A fun 2d platformer development workshop for beginners to explore their interests in game design."
+            description="A fun 2d platformer development workshop for beginners to explore their interests in game design! CSHS members brought together the community for some fun and more!"
           />
           <Event
             name="Codementum"
