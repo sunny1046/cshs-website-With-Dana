@@ -31,10 +31,12 @@ export default function Button({
   children,
   ...rest
 }: ButtonProps) {
-  const classes = `${colorClasses[color]} text-xl cursor-pointer font-medium rounded-lg text-sm px-5 py-2.5 text-center`;
+  const className = `${colorClasses[color]} text-xl cursor-pointer font-medium rounded-lg text-sm px-5 py-2.5 text-center${rest.className ? ` ${rest.className}` : ""}`;
+  const { className: _className, ...buttonProps } = rest;
+
   return (
     <a href={href}>
-      <button type="button" className={classes} {...rest}>
+      <button type="button" className={className} {...buttonProps}>
         {children}
       </button>
     </a>

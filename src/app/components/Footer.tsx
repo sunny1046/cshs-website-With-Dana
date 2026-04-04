@@ -14,7 +14,7 @@ export default function Footer() {
             <FaGithub className="w-6 h-6 hover:text-gray-400" />
           </Link>
           <Link
-            href="https://instagram.com"
+            href="https://www.instagram.com/bfs_shark.dev/?next=%2F"
             target="_blank"
             rel="noopener noreferrer"
           >

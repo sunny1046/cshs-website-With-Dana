@@ -232,8 +232,61 @@ export default function Home() {
             finished={true}
             eventType="Hackathon"
             description="We at BFS High School’s Computer Science Honor Society hosted Korea’s first-ever ScrapYard Hackathon, bringing together students from Busan, Daegu, Seoul, and beyond to create clever and delightfully useless projects. Inspired by our own hackathon experiences earlier this year, we planned and executed the event with guidance from Dr. Barnes and support from Hack Club, welcoming over 50 participants who built 18 unique projects."
+          />
+        </div>
+      </div>
 
-          />        </div>
+      {/* Latest Hack Club Developments */}
+      <div className="container mx-auto mb-16" id="developments" data-aos="fade-up">
+        <div className="bg-white rounded-3xl p-8 shadow-xl">
+          <h1 className="text-5xl font-bold text-gray-900 text-center mb-6">
+            Latest Hack Club Developments
+          </h1>
+          <p className="text-lg text-gray-700 text-center mb-8">
+            Explore recent game releases and student projects from the Hack Club community.
+          </p>
+          <div className="space-y-8">
+            <div className="flex flex-wrap justify-center gap-x-10 gap-y-4">
+              <div className="w-full max-w-[240px]">
+                <Button className="w-full" color="blue" href="https://thecat02394850239485.itch.io/dark-mystical-forrest">
+                  Dark Mystical Forrest
+                </Button>
+              </div>
+              <div className="w-full max-w-[240px]">
+                <Button className="w-full" color="blue" href="https://arangggg.itch.io/parksunghoon">
+                  Park Sunghoon
+                </Button>
+              </div>
+              <div className="w-full max-w-[240px]">
+                <Button className="w-full" color="blue" href="https://theblue-king.itch.io/wind-rider">
+                  Wind Rider
+                </Button>
+              </div>
+              <div className="w-full max-w-[240px]">
+                <Button className="w-full" color="blue" href="https://robinmin0819.itch.io/the-dungeon">
+                  The Dungeon
+                </Button>
+              </div>
+            </div>
+            <div className="flex flex-wrap justify-center gap-x-10 gap-y-4">
+              <div className="w-full max-w-[240px]">
+                <Button className="w-full" color="blue" href="https://lacarota.itch.io/hill-to-die-on">
+                  Hill to Die On
+                </Button>
+              </div>
+              <div className="w-full max-w-[240px]">
+                <Button className="w-full" color="blue" href="https://sunny1046.itch.io/my-cool-new-platformer">
+                  My Cool Platformer
+                </Button>
+              </div>
+              <div className="w-full max-w-[240px]">
+                <Button className="w-full" color="blue" href="https://2028leey-glitch.itch.io/my-fun-game">
+                  My Fun Game
+                </Button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );

@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 interface MemberProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   name: string;
   position: string;
@@ -15,19 +13,10 @@ export default function Member({
 }: MemberProps) {
   console.log(photoPath);
   return (
-    <div className="p-5 pr-16 bg-white rounded-2xl flex w-96">
-      <div className="relative h-20 w-20 mr-5">
-        <Image
-          className="object-cover rounded-full"
-          src="/ClubPhotos/1.jpg"
-          alt="cshs"
-          fill
-        />
-      </div>
-
-      <div className="info self-center">
+    <div className="p-5 bg-white rounded-2xl flex w-96 justify-center">
+      <div className="info self-center text-center">
         <h1 className="text-3xl font-bold">{name}</h1>
-        <div className="flex">
+        <div className="flex justify-center">
           <p className="text-lg font-bold text-blue-400 mr-1">{position}</p>
           <p className="text-lg text-gray-400">({pronouns})</p>
         </div>
