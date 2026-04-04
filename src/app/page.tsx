@@ -249,7 +249,7 @@ export default function Home() {
             <div className="flex flex-wrap justify-center gap-x-10 gap-y-4">
               <div className="w-full max-w-[240px]">
                 <Button className="w-full" color="blue" href="https://thecat02394850239485.itch.io/dark-mystical-forrest">
-                  Dark Mystical Forrest
+                  Dark Mystical Forest
                 </Button>
               </div>
               <div className="w-full max-w-[240px]">
